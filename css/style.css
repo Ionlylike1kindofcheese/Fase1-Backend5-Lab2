@@ -25,17 +25,17 @@ header a {
   margin-left: 30px;  
 }
 
-section {
+div {
   min-height: 200px;
   display: flex;
   justify-content: center;
 }
 
-section img {
+div img {
   width: 30%;
 }
 
-section p {
+div p {
   margin-left: 15px;
 }
 

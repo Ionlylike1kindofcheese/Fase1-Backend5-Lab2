@@ -16,10 +16,10 @@
       $pageSubject = $_GET['subject'];
       $result = fetching($pageSubject);
       $row = $result->fetch_assoc();
-      echo "<section>";
-      echo "<img src=" . $row["image"] . ">";
+      echo "<div>";
+      echo "<img src=" . $row["image"] . " alt=" . $row["name"] . ">";
       echo $row["description"];
-      echo "</section>";
+      echo "</div>";
     } else {
       echo "<div id=\"textField\"><p id=\"noneSelection\">Klik op een van de onderwerpen hierboven</p></div>";
     }

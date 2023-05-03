@@ -1,5 +1,4 @@
 <?php
   echo "<p>Robin Vervoorn</p>";
-  // dateformat: day-month-year
-  echo "<time>3-5-2023</time>";
+  echo "<p>3-5-2023</p>";
 ?>
