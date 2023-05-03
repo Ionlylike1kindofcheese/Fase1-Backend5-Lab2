@@ -16,7 +16,6 @@
       $pageSubject = $_GET['subject'];
       $result = fetching($pageSubject);
       $row = $result->fetch_assoc();
-      echo "<script>console.log('Debug Objects: " . $row["image"] . "' );</script>";
       echo "<section>";
       echo "<img src=" . $row["image"] . ">";
       echo $row["description"];
